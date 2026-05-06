@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EDS Assignment Submission | Sanjyot Tiranik</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #4f46e5);
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+      color: #2563eb;
+      margin-bottom: 18px;
+      font-size: 24px;
+      border-left: 5px solid #2563eb;
+      padding-left: 12px;
+    }
+
+    .details-grid,
+    .link-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 15px;
+    }
+
+    .detail-box,
+    .link-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 18px;
+      border-radius: 14px;
+    }
+
+    .detail-box strong {
+      display: block;
+      color: #334155;
+      margin-bottom: 5px;
+    }
+
+    .link-card {
+      transition: 0.3s ease;
+    }
+
+    .link-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(37, 99, 235, 0.18);
+    }
+
+    .link-card h3 {
+      margin-bottom: 10px;
+      color: #0f172a;
+      font-size: 18px;
+    }
+
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      background: #2563eb;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s ease;
+      margin-top: 8px;
+    }
+
+    a.button:hover {
+      background: #1d4ed8;
+    }
+
+    .direct-links p {
+      background: #f1f5f9;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      word-break: break-all;
+    }
+
+    .direct-links a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .direct-links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #0f172a;
+      color: white;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EDS Assignment Submission</h1>
+    <p>Submitted by Sanjyot Tiranik</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>👨‍💻 Student Details</h2>
+      <div class="details-grid">
+        <div class="detail-box">
+          <strong>Name</strong>
+          Sanjyot Tiranik
+        </div>
+        <div class="detail-box">
+          <strong>Division</strong>
+          CS2
+        </div>
+        <div class="detail-box">
+          <strong>Batch</strong>
+          C24
+        </div>
+        <div class="detail-box">
+          <strong>PRN</strong>
+          202501040188
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🌐 Live Website</h2>
+      <div class="link-card">
+        <h3>Project Website</h3>
+        <a class="button" href="https://sanjyottiranik.github.io/EDS/" target="_blank">Open Website</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>📌 Preskilet Work</h2>
+      <div class="link-grid">
+        <div class="link-card">
+          <h3>Presentation Video</h3>
+          <a class="button" href="https://youtu.be/BQCmYyy6jPU?si=BuojrimNVyoERh93" target="_blank">Watch Video</a>
+        </div>
+        <div class="link-card">
+          <h3>Project PPT</h3>
+          <a class="button" href="https://drive.google.com/file/d/1MOEebscXPzNgvTpgZJhEP1aYX0tsRX1C/view?usp=sharing" target="_blank">View PPT</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>📜 CISCO Certificates</h2>
+      <div class="link-grid">
+        <div class="link-card">
+          <h3>Python 1 Certificate</h3>
+          <a class="button" href="https://drive.google.com/file/d/1FxDdfgAr9sRmcERDcMiBYgCuGTHvXrSi/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+        <div class="link-card">
+          <h3>Python 2 Certificate</h3>
+          <a class="button" href="https://drive.google.com/file/d/1wORzLqWt5etZaeZ7s3ME8Rpa_P6LpMqi/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>📂 Assignments</h2>
+      <div class="link-grid">
+        <div class="link-card">
+          <h3>Assignment 1</h3>
+          <a class="button" href="https://drive.google.com/drive/folders/1xBRO6u5PEsodlZy1Ix2t5EaMVYsZ53nV?usp=sharing" target="_blank">Open Assignment</a>
+        </div>
+        <div class="link-card">
+          <h3>Assignment 2</h3>
+          <a class="button" href="https://drive.google.com/drive/folders/1U_km3uMypiJySxIzH9RuSVIemBSNNTKu?usp=sharing" target="_blank">Open Assignment</a>
+        </div>
+        <div class="link-card">
+          <h3>Assignment 3</h3>
+          <a class="button" href="https://drive.google.com/drive/folders/1QMe9KPvS2OSCgkN3SujkqG1tfI9t37Ad?usp=sharing" target="_blank">Open Assignment</a>
+        </div>
+        <div class="link-card">
+          <h3>Assignment 4</h3>
+          <a class="button" href="https://drive.google.com/drive/folders/1Sknefp2QkkaTCf21ncYiyUo8dPW93kMh?usp=drive_link" target="_blank">Open Assignment</a>
+        </div>
+        <div class="link-card">
+          <h3>Assignment 5</h3>
+          <a class="button" href="https://drive.google.com/drive/folders/1pIAA7wI2TGeRWlqFCOUR0do9Q0rmRPL3?usp=sharing" target="_blank">Open Assignment</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card direct-links">
+      <h2>🔗 All Links Direct Access</h2>
+      <p><strong>Live Website:</strong> <a href="https://sanjyottiranik.github.io/EDS/" target="_blank">https://sanjyottiranik.github.io/EDS/</a></p>
+      <p><strong>Video:</strong> <a href="https://youtu.be/BQCmYyy6jPU?si=BuojrimNVyoERh93" target="_blank">https://youtu.be/BQCmYyy6jPU?si=BuojrimNVyoERh93</a></p>
+      <p><strong>PPT:</strong> <a href="https://drive.google.com/file/d/1MOEebscXPzNgvTpgZJhEP1aYX0tsRX1C/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1MOEebscXPzNgvTpgZJhEP1aYX0tsRX1C/view?usp=sharing</a></p>
+      <p><strong>Python 1 Certificate:</strong> <a href="https://drive.google.com/file/d/1FxDdfgAr9sRmcERDcMiBYgCuGTHvXrSi/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1FxDdfgAr9sRmcERDcMiBYgCuGTHvXrSi/view?usp=sharing</a></p>
+      <p><strong>Python 2 Certificate:</strong> <a href="https://drive.google.com/file/d/1wORzLqWt5etZaeZ7s3ME8Rpa_P6LpMqi/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1wORzLqWt5etZaeZ7s3ME8Rpa_P6LpMqi/view?usp=sharing</a></p>
+      <p><strong>Assignment 1:</strong> <a href="https://drive.google.com/drive/folders/1xBRO6u5PEsodlZy1Ix2t5EaMVYsZ53nV?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1xBRO6u5PEsodlZy1Ix2t5EaMVYsZ53nV?usp=sharing</a></p>
+      <p><strong>Assignment 2:</strong> <a href="https://drive.google.com/drive/folders/1U_km3uMypiJySxIzH9RuSVIemBSNNTKu?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1U_km3uMypiJySxIzH9RuSVIemBSNNTKu?usp=sharing</a></p>
+      <p><strong>Assignment 3:</strong> <a href="https://drive.google.com/drive/folders/1QMe9KPvS2OSCgkN3SujkqG1tfI9t37Ad?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1QMe9KPvS2OSCgkN3SujkqG1tfI9t37Ad?usp=sharing</a></p>
+      <p><strong>Assignment 4:</strong> <a href="https://drive.google.com/drive/folders/1Sknefp2QkkaTCf21ncYiyUo8dPW93kMh?usp=drive_link" target="_blank">https://drive.google.com/drive/folders/1Sknefp2QkkaTCf21ncYiyUo8dPW93kMh?usp=drive_link</a></p>
+      <p><strong>Assignment 5:</strong> <a href="https://drive.google.com/drive/folders/1pIAA7wI2TGeRWlqFCOUR0do9Q0rmRPL3?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1pIAA7wI2TGeRWlqFCOUR0do9Q0rmRPL3?usp=sharing</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Sanjyot Tiranik | EDS Assignment Submission</p>
+  </footer>
+</body>
+</html>
