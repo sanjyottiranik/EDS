@@ -9,7 +9,7 @@ PRN: 202501040188
 
 🌐 Live Website
 
-"Open Website" (https://sanjyottiranik-code.github.io/EDS/)
+"Open Website" (https://sanjyottiranik.github.io/EDS/)
 
 📌 Preskilet Work
 
