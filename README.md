@@ -9,7 +9,7 @@ PRN: 202501040188
 
 🌐 Live Website
 
-"Open Website" (https://anupnaibal1610-code.github.io/EDS-Assignment-2/)
+"Open Website" (https://sanjyottiranik-code.github.io/EDS/)
 
 📌 Preskilet Work
 
