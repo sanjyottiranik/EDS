@@ -25,7 +25,7 @@ python2
 - "View Certificate" (https://drive.google.com/file/d/1wORzLqWt5etZaeZ7s3ME8Rpa_P6LpMqi/view?usp=sharing)
 
 IBM Crtificate
-"View Certificate" (https://drive.google.com/file/d/1VweIcI2GGJKUvNj7Bulcqo_TQjlsmLP5/view?usp=sharing)
+- "View Certificate" (https://drive.google.com/file/d/1VweIcI2GGJKUvNj7Bulcqo_TQjlsmLP5/view?usp=sharing)
 
 📂 Assignments
 
