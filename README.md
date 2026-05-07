@@ -23,6 +23,10 @@ python1
 
 python2
 - "View Certificate" (https://drive.google.com/file/d/1wORzLqWt5etZaeZ7s3ME8Rpa_P6LpMqi/view?usp=sharing)
+
+IBM Crtificate
+"View Certificate" (https://drive.google.com/file/d/1VweIcI2GGJKUvNj7Bulcqo_TQjlsmLP5/view?usp=sharing)
+
 📂 Assignments
 
 - "Assignment 1" (https://drive.google.com/drive/folders/1xBRO6u5PEsodlZy1Ix2t5EaMVYsZ53nV?usp=sharing)
@@ -30,3 +34,4 @@ python2
 - "Assignment 3" (https://drive.google.com/drive/folders/1QMe9KPvS2OSCgkN3SujkqG1tfI9t37Ad?usp=sharing)
 - "Assignment 4" (https://drive.google.com/drive/folders/1Sknefp2QkkaTCf21ncYiyUo8dPW93kMh?usp=drive_link)
 - "Assignment 5" (https://drive.google.com/drive/folders/1pIAA7wI2TGeRWlqFCOUR0do9Q0rmRPL3?usp=sharing)
+
